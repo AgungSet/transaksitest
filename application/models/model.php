@@ -28,9 +28,10 @@ class Model extends CI_Model{
     }
 
     // Cek login
-    function cek_login($table, $where){
+    function cek_login($table, $where)
+    {
         return $this->db->get_where($table, $where);
-    }
+    }
 }
 
 ?>
